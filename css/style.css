@@ -1,0 +1,139 @@
+* {
+   
+    /*margin: 0px;*/
+    box-sizing: border-box;
+}
+/* I chose a two use two different fonts so it would not
+all look the same which I think is a bit easier to read */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffcc5c;
+font-family: arial;
+margin: 0;
+}
+
+/* after choosing my color scheme it was easy to move colors 
+from one section to another */
+header {
+    height: 10%;
+    background-color: #96ceb4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* chose only width to auto fill height */
+.container-fluid {
+    height: 80%;
+    padding: 0;
+}
+
+img {
+width: 650px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.row {padding: 60px;}
+
+nav {
+    background-color: #ffeead;
+    padding: 20px;
+}
+nav ul {
+list-style: none;
+ text-align: center;
+}
+nav ul li {
+display: inline-block;
+padding-right: 70px;
+}
+
+main {
+    background-color: #ffeead;
+    height: 500px;
+    padding: 40px;
+}
+#bc{ background-color: #ffcc5c;}
+
+#effect {display: none;
+}
+/*
+.picture {
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.picture img {
+    width: 20%;
+    height: auto;
+ }
+
+.weblink {text-align: center;
+    
+}
+
+*/
+footer {
+    background-color: #ffeead;
+    height: 60px;
+    text-align: right;
+    /*height: 10%;*/
+    padding: 20px;
+}
+
+/* Text and color */
+
+h1 {
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+}
+
+/* I first chose 16px for paragragh but it looked too
+small for my liking */
+
+p {
+   font-size: 22px;
+   color: #fff;
+   text-align: center ;
+}
+
+.img-fluid {
+    max-width: 100%; height: auto;
+}
+
+/* this is what i added on Oct 7 2018 
+
+.carousel{
+    max-width: 50%; height: auto;
+}
+*/
+
+
+
+
+/*notes from November 6
+div{
+    background-color: blue
+    height:100px;
+    weight:100px;
+}
+
+.fading{
+    animation-name: 
+}
+*/
